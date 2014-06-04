@@ -1,0 +1,5 @@
+This project provides a set of classes which simplify some of the repetitive tasks of reading data files in c++.  The classes are DatFileInput for space separated data files, GzFileInput for similar data files which have been compressed with gzip, and BinFileInput
+
+The example shows the basic functions for the class DatFileInput, such as getting numbers from the header and getting columns.  See file_input.h for all member functions.
+
+The example program and library (libdatainput.a) can be compiled using the make command.  The library should be put somewhere visible to the compiler.
